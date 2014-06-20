@@ -1,0 +1,6 @@
+﻿@model List<GregsList06202014.Models.Post>
+
+@foreach (var post in Model)
+{
+    <a href="/home/post/@post.Id">@post.Title</a><br />
+}

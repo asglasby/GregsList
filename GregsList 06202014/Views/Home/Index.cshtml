@@ -1,0 +1,9 @@
+﻿@model List<GregsList06202014.Models.Category>
+
+<h2>Gregs List</h2>
+
+@foreach (var cat in Model) 
+{
+    <a href="/home/cat/@cat.Id">@cat.Name</a>
+}
+
